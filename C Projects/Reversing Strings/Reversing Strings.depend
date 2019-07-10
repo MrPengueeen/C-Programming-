@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1559133891 source:f:\c projects\reversing strings\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1559134364 source:f:\c projects\reversing strings\untitled1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
