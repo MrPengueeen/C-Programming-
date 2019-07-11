@@ -1,0 +1,1 @@
+This piece of code lets the user choose between custom input test-cases or randomly generated test-cases and finds the lowest and the highest inputs and prints them on the screen. Also takes care of invalid inputs if the user gives one.
