@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1562845434 source:c:\users\bivu_\documents\github\c-programming-\c projects\determining highest and lowest test case\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+
