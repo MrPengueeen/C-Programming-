@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1563208287 source:c:\users\bivu_\documents\github\c-programming-\c projects\square root of a number\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
