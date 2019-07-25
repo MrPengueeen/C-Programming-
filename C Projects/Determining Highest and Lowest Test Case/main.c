@@ -5,8 +5,8 @@
 int main()
 {
     int i;
-    int n = 0;
-    int input[n];
+    int n;
+    int * input;
     char choice;
     int max=0, min;
     int limit;
@@ -21,6 +21,7 @@ int main()
     case 'c' :
         printf("Enter the number of test cases you want to input...\n");
         scanf(" %d", &n);
+        input = (int *) malloc(n * sizeof(int));
 
         for(i=0; i<n; i++) {
          printf("Enter test case #%d :\n", i+1);
@@ -47,6 +48,7 @@ int main()
     case 'r' :
         printf("Enter the number of random test cases you want to generate...\n");
         scanf(" %d", &n);
+        input = (int *) malloc(n * sizeof(int));
         printf("Enter the highest limit of the random test cases...\n");
         scanf(" %d", &limit);
         for(i=0; i<n; i++) {
