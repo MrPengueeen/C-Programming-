@@ -75,6 +75,7 @@ int main()
     default:
         printf("INVALID INPUT!");
     }
-
+    
+    free(input);
     return 0;
 }
